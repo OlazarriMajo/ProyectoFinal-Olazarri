@@ -15,7 +15,7 @@
 
 a:hover {
     color: $naranjoso;
-    font-weight:bolder;
+    font-weight: bolder;
     text-decoration: underline;
 }
 
@@ -28,15 +28,15 @@ a:visited {
 }
 
 input:hover {
-    color:$naranjoso;
+    color: $naranjoso;
     font-weight: bolder;
-   
+
 }
 
 select:hover {
     background-color: $choco-medio;
     color: $naranjoso;
-   
+
 }
 
 input:focus {
@@ -50,31 +50,42 @@ input:focus {
         flex-direction: row;
         justify-content: space-around;
     }
+
     .header ul {
-       gap:7px
+        gap: 7px
     }
-    .introduccion p{
-        width: 600px;
+
+    .introduccion p {
+        width: 70%;
+        font-size: 30px;
     }
+
     .products {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    
+
     }
+
     .cuidados {
         margin: auto;
     }
-    
+
 }
-@media (min-width:1439px){
+
+@media (min-width:1439px) {
     .header ul {
         gap: 15px;
-     }
-     .products {
-        grid-template-columns: 1fr 1fr 1fr;
-    
     }
 
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .introduccion p {
+        width: 70%;
+        font-size: 30px;
+    }
 
 
 }
