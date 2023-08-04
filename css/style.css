@@ -162,6 +162,10 @@
         max-height: 130px;
         padding: 10px;
         border-radius: 40%; }
+        .main .products .card .card-img-top:hover {
+          transform: scale(1.1);
+          transition: 1s;
+          background-color: #FFC26F; }
       .main .products .card .card-body {
         border-radius: 20px; }
         .main .products .card .card-body .card-title {
