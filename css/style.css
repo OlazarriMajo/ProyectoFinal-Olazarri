@@ -130,6 +130,11 @@
     text-align: center;
     font-size: 30px;
     padding: 20px; }
+  .main .genero {
+    color: #C07F00;
+    font-family: 'Lumanosimo', cursive;
+    text-align: center;
+    font-size: 20px; }
   .main .products {
     display: flex;
     flex-direction: column;
